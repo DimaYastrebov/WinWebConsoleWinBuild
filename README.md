@@ -2,6 +2,7 @@
 Node.js v20.3.0
 electron v26.1.0
 electron-builder v24.6.3
+node.js express v4.18.2
 
 # WinWebConsole
 What is WinWebConsole?
