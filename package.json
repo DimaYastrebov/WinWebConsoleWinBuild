@@ -17,14 +17,12 @@
     }
   },
   "author": "dimayastrebov",
-  "license": "ISC",
+  "license": "MIT license",
   "devDependencies": {
     "electron": "^26.1.0",
     "electron-builder": "^24.6.3"
   },
   "dependencies": {
-    "electron-about-window": "^1.15.2",
-    "electron-open-link-in-browser": "^1.0.2",
     "express": "^4.18.2"
   }
 }
