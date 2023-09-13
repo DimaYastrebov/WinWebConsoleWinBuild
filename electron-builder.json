@@ -1,0 +1,21 @@
+{
+    "appId": "com.dimayastrebov.webconsole",
+    "productName": "win11console.exe",
+    "copyright": "WinDimaYastrebov",
+    "directories": {
+        "output": "release"
+    },
+    "files": [
+        "C:\NewSite\port_win"
+    ],
+    "win": {
+        "target": [
+            {
+                "target": "exe",
+                "arch": [
+                    "x64"
+                ]
+            }
+        ]
+    }
+}

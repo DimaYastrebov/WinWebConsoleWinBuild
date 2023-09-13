@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            padding: 0;
+            margin: 0 auto;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            user-select: none;
+            background: #0e0e0e;
+            color: #a8a8a8;
+        }
+        .about {
+            padding: 10px;
+        }
+        .about img {
+            vertical-align: middle;
+            margin-right: 20px;
+            width: 128px;
+        }
+        .about a {
+            text-decoration: none;
+            color: #a8a8a8;
+        }
+        .about a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="about">
+        <h1><img src="logo.png">WebWinConsole</h1>
+
+        <p>WebWinConsole is a web application that simulates the functionality of a Windows console right in your browser. It was created by
+             WinDimaYastrebov using HTML, CSS, and JS. You can input various commands just like you would in a real Windows console and receive
+              interactive responses from WebWinConsole. There are two versions of WebWinConsole available: desktop and mobile (web). In the 
+              desktop version, you have access to the full range of commands, while the mobile version offers a limited set. WebWinConsole 
+              is a fun way to immerse yourself in the world of Windows console!</p>
+              <br>
+              <label>Website</label>
+              <a onClick="electronOpenLinkInBrowser();" href="https://www.dimayastrebov.website" target="_blank">https://www.dimayastrebov.website</a>
+    </div>
+</body>
+<script type="text/javascript" src="build/electron-open-link-in-browser.js"></script>
+</html>
