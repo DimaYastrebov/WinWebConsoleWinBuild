@@ -1,3 +1,8 @@
+# Required for Source Code:
+Node.js v20.3.0
+electron v26.1.0
+electron-builder v24.6.3
+
 # WinWebConsole
 What is WinWebConsole?
 WinWebConsoleBuildWindows is a special version of the [Web Console](https://github.com/dimayastrebovYT/WebWinConsole), adapted for Windows using Electron.
